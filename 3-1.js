@@ -5,6 +5,7 @@ function solution(s) {
     // 문자열 뒤집기
     const reverseS = s.split("").reverse().join("");
 
+    // s 문자열 비교
     if (s === reverseS) answer = "YES";
 
     return answer;
